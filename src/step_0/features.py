@@ -39,7 +39,6 @@ def rename_columns(columns: t.List[str]) -> t.List[str]:
 
     return columns
 
-
 if __name__ == "__main__":
     original_file = "./data/original/dpe-v2-tertiaire-2.csv"
     output_file = (
