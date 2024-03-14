@@ -7,7 +7,7 @@ import numpy as np
 
 if __name__ == "__main__":
     # Load the CSV into a DataFrame called 'data'
-    input_file = "./data/source/dpe_tertiaire_20240309.csv"
+    input_file = "./data/source/dpe_tertiaire_20240314.csv"
     data = pd.read_csv(input_file)
     # shuffle
     data = data.sample(frac=1, random_state=808).reset_index(drop=True)
